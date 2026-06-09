@@ -41,9 +41,13 @@ An AI-Powered Itinerary Generator \& Travel Optimizer built with Flutter and PHP
 |---|---|
 
 | Frontend | Flutter (iOS \& Android) |
+
 | Backend | PHP (Pure / Custom REST API) |
+
 | Database | MySQL |
+
 | AI | Google Gemini 2.0 Flash |
+
 | Auth | JWT (JSON Web Tokens) |
 
 
@@ -53,34 +57,63 @@ An AI-Powered Itinerary Generator \& Travel Optimizer built with Flutter and PHP
 tripgenius/
 
 ├── lib/
+
 │   ├── main.dart
+
 │   ├── models/
+
 │   │   ├── itinerary.dart
+
 │   │   ├── trip\_input.dart
+
 │   │   └── user.dart
+
 │   ├── screens/
+
 │   │   ├── login\_screen.dart
+
 │   │   ├── register\_screen.dart
+
 │   │   ├── trip\_builder\_screen.dart
+
 │   │   ├── itinerary\_screen.dart
+
 │   │   ├── saved\_trips\_screen.dart
+
 │   │   ├── search\_screen.dart
+
 │   │   ├── destination\_detail\_screen.dart
+
 │   │   ├── wishlist\_screen.dart
+
 │   │   ├── profile\_screen.dart
+
 │   │   └── budget\_screen.dart
+
 │   └── services/
+
 │       ├── api\_service.dart
+
 │       ├── auth\_service.dart
+
 │       └── storage\_service.dart
+
 └── backend/
+
 ├── auth.php
+
 ├── generate.php
+
 ├── trips.php
+
 ├── destinations.php
+
 ├── wishlist.php
+
 ├── budget.php
+
 └── transport.php
+
 
 \## Getting Started
 
